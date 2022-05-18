@@ -1,0 +1,17 @@
+{
+  "name": "bookapi",
+  "version": "1.0.0",
+  "description": "- Book: tên, mô tả, tác giả, thể loại, số lượng\r - Thể Loại : id, tên thể loại",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^17.0.34",
+    "nodemon": "^2.0.16",
+    "prettier": "^2.6.2"
+  }
+}
