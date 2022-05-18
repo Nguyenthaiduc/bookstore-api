@@ -4,14 +4,21 @@
   "description": "- Book: tên, mô tả, tác giả, thể loại, số lượng\r - Thể Loại : id, tên thể loại",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.ts",
+    "dev": "nodemon server.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/express": "^4.17.13",
     "@types/node": "^17.0.34",
     "nodemon": "^2.0.16",
     "prettier": "^2.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "typeorm": "^0.3.6"
   }
 }
